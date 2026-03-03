@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mediyo - YouTube Music Client</title>
+    <link rel="icon" type="image/png" href="assets/icon-512x512.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <div class="logo">
+                <img src="assets/icon-512x512.png" alt="Mediyo" class="logo-img">
+                <span>mediyo</span>
+            </div>
+            <input type="checkbox" id="nav-toggle" class="nav-toggle-checkbox">
+            <label for="nav-toggle" class="nav-toggle" aria-label="Toggle navigation menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <div class="nav-links">
+                <a href="https://github.com/TeamShryne/Mediyo" target="_blank">GitHub</a>
+                <a href="https://github.com/TeamShryne/Mediyo/releases/" target="_blank">Releases</a>
+                <a href="https://github.com/TeamShryne/Mediyo/issues" target="_blank">Issues</a>
+                <a href="#download">Download</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="badge">Open Source</div>
+            <h1>mediyo</h1>
+            <p>A YouTube Music client for Android</p>
+            <a href="#download" class="btn">Download</a>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <h3>Login</h3>
+                    <p>Sign in with your YouTube Music account</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Complete Library</h3>
+                    <p>Access all your playlists, albums, and liked songs</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Home Feed</h3>
+                    <p>Personalized recommendations and trending music</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Podcasts</h3>
+                    <p>Listen to podcasts alongside your music</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Search</h3>
+                    <p>Find any song, artist, or album instantly</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Offline Downloads</h3>
+                    <p>Download tracks and listen without internet</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Smart Caching</h3>
+                    <p>Faster loading and reduced data usage</p>
+                </div>
+                <div class="feature-card">
+                    <h3>React Native</h3>
+                    <p>Built with modern cross-platform technology</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="download">
+        <div class="container">
+            <h2>Download</h2>
+            <div class="download-card">
+                <svg class="download-icon" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M17.523 15.341c-.538-.586-1.413-.586-1.951 0l-2.572 2.805V8c0-.828-.672-1.5-1.5-1.5s-1.5.672-1.5 1.5v10.146l-2.572-2.805c-.538-.586-1.413-.586-1.951 0-.538.586-.538 1.536 0 2.122l4.5 4.902c.269.293.634.439.999.439s.73-.146.999-.439l4.5-4.902c.538-.586.538-1.536 0-2.122zM19.5 3h-15C3.673 3 3 3.673 3 4.5S3.673 6 4.5 6h15c.827 0 1.5-.673 1.5-1.5S20.327 3 19.5 3z"/>
+                </svg>
+                <h3>Android</h3>
+                <p>Built with React Native</p>
+                <a href="https://github.com/TeamShryne/Mediyo/releases/latest" target="_blank" class="btn">Download APK</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+        <div class="container">
+            <h2>FAQ</h2>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <h3>Is Mediyo free?</h3>
+                    <p>Yes, Mediyo is completely free and open source.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Is my data safe?</h3>
+                    <p>Mediyo stores account session data locally on your device and does not run analytics in the app. Like most local app storage, this is not a guarantee against all device-level threats.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Does it work offline?</h3>
+                    <p>Yes, you can download songs and listen to them offline without an internet connection.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What Android version is required?</h3>
+                    <p>Mediyo requires Android 6.0 (Marshmallow) or higher.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>How do I report bugs or issues?</h3>
+                    <p>You can report bugs and issues on our GitHub repository's issue tracker.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Open Source Section -->
+    <section class="opensource">
+        <div class="container">
+            <div class="opensource-card">
+                <h2>Open Source</h2>
+                <p>Mediyo is free and open source. View the code, contribute, or report issues on GitHub.</p>
+                <a href="https://github.com/TeamShryne/Mediyo" target="_blank" class="btn">View on GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Disclaimer Section -->
+    <section class="disclaimer">
+        <div class="container">
+            <div class="disclaimer-card">
+                <h3>Disclaimer</h3>
+                <p>
+                    Mediyo is an independent, third-party, unofficial client for YouTube Music and is not affiliated with, endorsed by, or connected to Google LLC or YouTube. All trademarks, service marks, and company names are the property of their respective owners.
+                </p>
+                <p>
+                    This application is developed for educational purposes only. The developers do not support or condone piracy or any violation of copyright laws. Users must have appropriate rights and subscriptions to access content through this application.
+                </p>
+                <p>
+                    This application is provided "as is" without warranty of any kind, express or implied. The developers of Mediyo are not responsible for any damages, data loss, or issues that may arise from using this application.
+                </p>
+                <p>
+                    Users are responsible for complying with YouTube's Terms of Service and any applicable laws in their jurisdiction. Use of this application is at your own risk.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 mediyo · Open Source · GPL-3.0 License · <a href="privacy/" style="color: #737373; text-decoration: underline;">Privacy Policy</a></p>
+        </div>
+    </footer>
+
+</body>
+</html>
